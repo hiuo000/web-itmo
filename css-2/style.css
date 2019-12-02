@@ -1,0 +1,142 @@
+@font-face {
+    font-family: monospace;
+}
+@font-face {
+    font-family: fantasy;
+}
+ * {
+     margin: 0;
+     padding: 0;
+ }
+body {
+    background: aliceblue;
+}
+#block-body{
+    width: 1500px;
+    height: auto;
+}
+header {
+    height: 80px;
+    background-color: darkcyan;
+    width: auto;
+}
+.logo {
+    width: 200px;
+    float: left;
+    height: 80px;
+}
+.logo a{
+    display: block;
+    margin-left: 70px;
+    margin-top: 10px;
+    font-family: monospace, fantasy;
+    font-size: 28px;
+    color: lightblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+.travel {
+    color: #ecc7de;
+}
+
+.logo p {
+    margin-left: 70px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-family: monospace, fantasy;
+    font-size: 13px;
+    color: white;
+}
+.top-menu {
+    width: 685px;
+    height: 80px;
+    float: left;
+}
+.top-menu ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+.top-menu ul li a {
+    display: block;
+    width: 171px;
+    text-decoration: none;
+    font-family: monospace, fantasy;
+    font-size: 17px;
+    color: white;
+    height: 55px;
+    padding-top: 25px;
+    padding-left: 55px;
+    cursor: pointer;
+}
+
+.top-menu ul li a:hover {
+    transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    background: #005f5f;
+}
+.block-top-auth{
+    width: 100px;
+    float: left;
+    margin-left: 240px;
+    height: 80px;
+}
+.block-top-auth p {
+    margin-top: 12px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.block-top-auth a {
+    text-decoration: underline;
+    color: white;
+    font-family: monospace, fantasy;
+    font-size: 15px;
+    cursor: pointer;
+}
+.block-top-auth a:hover {
+    transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    color: #005f5f;
+}
+
+.block_1 {
+    background-color: #d9acb0;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 300px;
+    top: 50px;
+    z-index: 2;
+}
+.picture {
+    position: absolute;
+    left: 450px;
+    top: 300px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-style: solid;
+    z-index: 3;
+}
+.main {
+    background-color: rgba(0, 139, 139, 0.5);
+    height: 938px;
+    width: 800px;
+    z-index: 1;
+    position: absolute;
+    top: 80px;
+    left: 20%;
+}
+
+.footer {
+    background-color: #d9acb0;
+    z-index: 4;
+    position: relative;
+    bottom: -550px;
+}
